@@ -33,7 +33,6 @@ export const metadata: Metadata = {
     "general merchandise",
     "real estate Nigeria",
     "properties Nigeria",
-    "Freight forwarding",
     "Fri-ride logistics",
     "Aejis Painting",
     "Procurement",
