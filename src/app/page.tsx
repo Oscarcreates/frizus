@@ -27,7 +27,7 @@ export default function HomePage() {
         <div className="container-page relative z-10 pt-24">
           <div className="max-w-2xl">
             <h1 className="heading text-4xl text-white sm:text-5xl md:text-[3.4rem] md:leading-[1.05]">
-              The No. 1 Trusted Procurement Firm
+              Your Trusted Partner for Growth
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-white/85 sm:text-lg">
 The company drives business growth through strategic partnerships with businesses, organizations, governments, and NGOs, offering services in procurement, contracting, logistics, and consultancy.            </p>
@@ -113,10 +113,7 @@ The company drives business growth through strategic partnerships with businesse
               Delivering Results Through Smart Solutions
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
-              At Frizus, we combine market intelligence, logistics expertise and
-              deep local knowledge to deliver real results, whether you&apos;re
-              breaking into a new market, sourcing goods internationally or
-              developing commercial property.
+             At Frizus, we combine market intelligence and deep local knowledge to deliver real results across painting, consultancy, logistics, and cab services.At Frizus, we combine market intelligence and deep local knowledge to deliver real results across painting, consultancy, logistics, and cab services.
             </p>
             <Link
               href="/about"

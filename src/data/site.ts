@@ -61,7 +61,7 @@ export const services: Service[] = [
     short:
       "Contracting, distribution and supply chain, delivered end to end.",
     description:
-      "Our flagship division and the engine of the Frizus group. Frizus Procurement handles contracting, importation, general merchandise, warehousing, freight forwarding and full supply chain management, coordinating suppliers, logistics and trade so your projects and inventory move on spec, on budget and on time across Nigeria and beyond.",
+      "Our flagship division and the engine of the Frizus group. Frizus Integrated Services handles contracting, general merchandise, logistics consultancy and coordinating suppliers so your projects and inventory move on spec, on budget and on time.",
     image: "/images/supplychain.jpg",
   },
   {
