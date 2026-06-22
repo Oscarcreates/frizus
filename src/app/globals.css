@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette */
+  --color-ink: #0b1437;          /* near-black navy for headings */
+  --color-navy: #14228c;         /* footer / CTA base */
+  --color-navy-deep: #0c1763;    /* darker navy */
+  --color-accent: #2d6be5;       /* bright blue labels / links */
+  --color-accent-soft: #5b8def;
+  --color-muted: #5a6173;        /* body gray */
+  --color-band: #eef2fb;         /* light-blue section band */
+  --color-line: #e4e8f2;         /* hairline borders */
+
+  /* Typography */
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-poppins), var(--font-inter), sans-serif;
+
+  /* Shared radii */
+  --radius-card: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Reusable utilities */
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.85rem 1.6rem;
+    transition: transform 0.15s ease, box-shadow 0.2s ease, background 0.2s ease, color 0.2s ease;
+    cursor: pointer;
+  }
+  .btn:hover { transform: translateY(-1px); }
+
+  .btn-primary {
+    background: linear-gradient(135deg, #2d6be5 0%, #1b3dbe 100%);
+    color: #fff;
+    box-shadow: 0 10px 24px -10px rgba(45, 107, 229, 0.7);
+  }
+  .btn-primary:hover { box-shadow: 0 14px 30px -10px rgba(45, 107, 229, 0.85); }
+
+  .btn-outline-light {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    color: #fff;
+    background: rgba(255, 255, 255, 0.04);
+  }
+  .btn-outline-light:hover { background: rgba(255, 255, 255, 0.12); }
+
+  .btn-outline-dark {
+    border: 1px solid var(--color-line);
+    color: var(--color-ink);
+    background: #fff;
+  }
+  .btn-outline-dark:hover { border-color: var(--color-accent); color: var(--color-accent); }
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  /* No hard-coded color: inherits `ink` from body by default, but lets
+     `text-white` / `text-navy` utilities take effect on dark backgrounds. */
+}
