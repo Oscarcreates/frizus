@@ -30,8 +30,7 @@ export default function HomePage() {
               The No. 1 Trusted Procurement Firm
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-white/85 sm:text-lg">
-              Frizus is a leading procurement, contracting, construction, and business solutions company, delivering procurement services, project execution, logistics, property solutions/management and strategic product marketing.
-            </p>
+The company drives business growth through strategic partnerships with businesses, organizations, governments, and NGOs, offering services in procurement, contracting, logistics, and consultancy.            </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <Link href="/services" className="btn btn-primary">
                 Explore Our Services
@@ -55,7 +54,7 @@ export default function HomePage() {
                 <br className="hidden sm:block" /> Through Reliable Solutions
               </>
             }
-            description="One group, four divisions, spanning trade & contracting, paints, mobility and real estate, built for the realities of the African market."
+            description="One group, four divisions, spanning consultancy & contracting, paints, mobility and real estate, built for the realities of the African market."
           />
 
           <div className="mt-12 grid gap-5 lg:grid-cols-2">

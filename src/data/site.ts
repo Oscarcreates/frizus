@@ -57,7 +57,7 @@ export type Service = {
 export const services: Service[] = [
   {
     slug: "integrated-services",
-    title: "Frizus Procurement",
+    title: "Frizus Integrated Services",
     short:
       "Contracting, distribution and supply chain, delivered end to end.",
     description:
@@ -139,7 +139,7 @@ export type TeamMember = {
 // Company stakeholders shown on the landing page.
 // TODO: replace placeholder names and add headshots under /public/images.
 export const team: TeamMember[] = [
-  { name: "Izuchukwu  Ejikeme", role: "Chief Executive Officer", image: "/images/team-ceo.jpg", imagePosition: "center top" },
+  { name: "Izuchukwu Francis Ejikeme", role: "Chief Executive Officer", image: "/images/team-ceo.jpg", imagePosition: "center top" },
   { name: "Chisom Egbuna", role: "Managing Director", image: "/images/team-md.jpg" },
   { name: "Ebuka Benjamin Nwafor", role: "Operations Manager", image: "/images/nwafor.jpg", imagePosition: "center top" },
 ];
