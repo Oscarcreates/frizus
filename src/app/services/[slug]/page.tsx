@@ -44,8 +44,27 @@ export default async function ServiceDetailPage({
   const others = services.filter((s) => s.slug !== service.slug);
   const contain = service.imageFit === "contain";
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: service.title,
+    description: service.short,
+    url: `${site.url.replace(/\/$/, "")}/services/${service.slug}`,
+    image: `${site.url.replace(/\/$/, "")}${service.image}`,
+    provider: {
+      "@type": "Organization",
+      name: site.name,
+      url: site.url,
+    },
+    areaServed: "Nigeria",
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <PageHero title={service.title} image="/images/services-hero.jpg" />
 
       {/* Detail */}

@@ -3,6 +3,7 @@ import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { site } from "@/data/site";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -18,7 +19,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://frizus.com"),
+  metadataBase: new URL(site.url),
   title: {
     default: "Frizus | Trade, Distribution, Contracting & Real Estate in Nigeria",
     template: "%s | Frizus",
