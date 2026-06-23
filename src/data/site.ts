@@ -6,7 +6,7 @@ export const site = {
   tagline: "Let's Advance Together",
   // Production URL — used for metadata, sitemap and robots.
   // Update this to your live domain before submitting to Google.
-  url: "https://frizus.com",
+  url: "https://www.frizusgroup.com",
   blurb:
     "An integrated group spanning trade & contracting, paints, mobility and real estate, advancing businesses and communities across Africa.",
   email: "frizusgroup@gmail.com",
