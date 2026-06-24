@@ -47,7 +47,7 @@ export default function ContactPage() {
               Let&apos;s advance your business together
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted">
-              Whether you&apos;re sourcing internationally, planning a project or
+              Whether you&apos;re planning a project or
               exploring property, our team is ready to help. Reach out and
               we&apos;ll respond promptly.
             </p>

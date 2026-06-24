@@ -30,7 +30,7 @@ export default function HomePage() {
               Your Trusted Partner for Growth
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-white/85 sm:text-lg">
-The company drives business growth through strategic partnerships with businesses, organizations, governments, and NGOs, offering services in procurement, contracting, logistics, and consultancy.            </p>
+The conglomerate of companies drives business growth through strategic partnerships with businesses and organizations offering services in procurement, contracting, logistics, and consultancy.            </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <Link href="/services" className="btn btn-primary">
                 Explore Our Services
@@ -54,7 +54,7 @@ The company drives business growth through strategic partnerships with businesse
                 <br className="hidden sm:block" /> Through Reliable Solutions
               </>
             }
-            description="One group, four divisions, spanning consultancy & contracting, paints, mobility and real estate, built for the realities of the African market."
+            description="One group, four divisions, spanning consultancy, procurement & contracting services, paints, mobility and logistics and real estate."
           />
 
           <div className="mt-12 grid gap-5 lg:grid-cols-2">

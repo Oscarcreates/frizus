@@ -21,7 +21,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Frizus | Trade, Distribution, Contracting & Real Estate in Nigeria",
+    default: "Frizus | Procurement, Contracting & Real Estate in Nigeria",
     template: "%s | Frizus",
   },
   description:
