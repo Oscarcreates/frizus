@@ -30,7 +30,7 @@ export default function HomePage() {
               Your Trusted Partner for Growth
             </h1>
             <p className="mt-6 max-w-xl text-base leading-relaxed text-white/85 sm:text-lg">
-The conglomerate of companies drives business growth through strategic partnerships with businesses and organizations offering services in procurement, contracting, logistics, and consultancy.            </p>
+This conglomerate of companies drives business growth through strategic partnerships with businesses and organizations offering services in procurement, contracting, logistics, and consultancy.            </p>
             <div className="mt-9 flex flex-wrap gap-4">
               <Link href="/services" className="btn btn-primary">
                 Explore Our Services
