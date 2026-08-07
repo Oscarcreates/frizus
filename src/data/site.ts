@@ -74,6 +74,7 @@ export const services: Service[] = [
     description:
       "Ages Paints is our paints and coatings brand colours that transform. We produce durable, vibrant, value-for-money finishes for residential, commercial and industrial use. From wall primers and ultra-durable exterior protective coatings to high-gloss finishes, Ages delivers colour that lasts and a finish you can trust.",
     image: "/images/ages-paints.png",
+    imageFit: "contain",
     gallery: ["/images/ages-bucket.png"],
   },
   {
