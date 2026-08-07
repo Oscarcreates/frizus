@@ -8,7 +8,7 @@ import { services } from "@/data/site";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "The four divisions of the Frizus group: Frizus Procurement, Aejis Paints, Fri-Ride and Frizus Properties. Solutions designed to move your business forward.",
+    "The four divisions of the Frizus group: Frizus Procurement, Ages Paints, Fri-Ride and Frizus Properties. Solutions designed to move your business forward.",
 };
 
 export default function ServicesPage() {

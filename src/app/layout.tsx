@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "real estate Nigeria",
     "properties Nigeria",
     "Fri-ride logistics",
-    "Aejis Painting",
+    "Ages Painting",
     "Procurement",
     "Delivery",
     "Logistics",

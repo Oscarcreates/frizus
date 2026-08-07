@@ -68,13 +68,13 @@ export const services: Service[] = [
     image: "/images/supplychain.jpg",
   },
   {
-    slug: "aejis-paints",
-    title: "Aejis Paints",
+    slug: "ages-paints",
+    title: "Ages Paints",
     short: "Quality paints and coatings for homes, businesses and projects.",
     description:
-      "Aejis Paints is our paints and coatings brand colours that transform. We produce durable, vibrant, value-for-money finishes for residential, commercial and industrial use. From wall primers and ultra-durable exterior protective coatings to high-gloss finishes, Aejis delivers colour that lasts and a finish you can trust.",
-    image: "/images/aejis-paints.png",
-    gallery: ["/images/aejis-bucket.png"],
+      "Ages Paints is our paints and coatings brand colours that transform. We produce durable, vibrant, value-for-money finishes for residential, commercial and industrial use. From wall primers and ultra-durable exterior protective coatings to high-gloss finishes, Ages delivers colour that lasts and a finish you can trust.",
+    image: "/images/ages-paints.png",
+    gallery: ["/images/ages-bucket.png"],
   },
   {
     slug: "fri-ride",
