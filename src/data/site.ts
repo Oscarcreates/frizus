@@ -56,7 +56,7 @@ export type Service = {
 };
 
 // The four Frizus group divisions (Services page).
-// The Home page features the first three.
+// The Home page features the first three (all four on mobile).
 export const services: Service[] = [
   {
     slug: "integrated-services",

@@ -79,6 +79,14 @@ This conglomerate of companies drives business growth through strategic partners
                 imageFit={services[2].imageFit}
                 className="min-h-[200px]"
               />
+              {/* Fourth division shows on the single-column (mobile) layout only. */}
+              <ServiceCard
+                title={services[3].title}
+                image={services[3].image}
+                href={`/services/${services[3].slug}`}
+                imageFit={services[3].imageFit}
+                className="min-h-[200px] lg:hidden"
+              />
             </div>
           </div>
         </div>
