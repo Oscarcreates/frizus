@@ -87,13 +87,14 @@ export const services: Service[] = [
     imageFit: "contain",
   },
   {
-    slug: "frizus-properties",
-    title: "Frizus Properties",
+    slug: "forterra-properties",
+    title: "Forterra Homes & Properties",
     short: "Acquire, develop and manage real estate with confidence.",
     description:
-      "Frizus Properties is our real estate arm, helping clients identify, acquire, develop and manage residential and commercial property. Backed by deep local market knowledge, we turn land and buildings into lasting value, from sound investments to well-built, well-located developments.",
-    image: "/images/frizus-properties.webp",
+      "Forterra Homes & Properties is our real estate arm, helping clients identify, acquire, develop and manage residential and commercial property. Backed by deep local market knowledge, we turn land and buildings into lasting value, from sound investments to well-built, well-located developments.",
+    image: "/images/forterra-logo.png",
     imageFit: "contain",
+    gallery: ["/images/forterra-properties.webp"],
   },
 ];
 
