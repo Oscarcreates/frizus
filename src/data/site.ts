@@ -85,6 +85,7 @@ export const services: Service[] = [
       "Fri-Ride is our mobility and transport service, connecting people and goods with safe, affordable and dependable rides. From executive sedans and limousines to vans for groups and cargo, Fri-Ride keeps you moving with a well-kept fleet and drivers you can rely on, every trip, every time.",
     image: "/images/fri-ride.png",
     imageFit: "contain",
+    gallery: ["/images/fri-ride-driver.jpg", "/images/fri-ride-car.jpg"],
   },
   {
     slug: "forterra-properties",
